@@ -1,0 +1,8 @@
+management:
+   metrics:
+      export:
+         influx:
+            db: proxy
+            step: 1m 
+            uri: http://localhost:8086
+
